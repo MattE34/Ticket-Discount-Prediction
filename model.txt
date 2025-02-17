@@ -1,0 +1,8 @@
+The Prediction Model (4 patterns):
+
+1. Passengers younger than 5 or older than 85 are eligible for a discount
+2. Passengers with departure months of either 1 (January) or 12 (December) are eligible for a discount
+3. Passengers who identify as female and have a ticket price that's divisible by 4 are eligible for a discount
+4. Passengers who's nationality matches the country name of the airport are eligible for a discount
+
+These patterns were all found through trial & error, value_counts, and other data analysis methods.
